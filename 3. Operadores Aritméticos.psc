@@ -1,5 +1,4 @@
 Algoritmo prueba
-	
 	//operadores aritméticos: Suma, Resta, Multiplicación, División, Modulo
 	
 	// Suma= "+" ej; 5+8, 20+87
