@@ -13,3 +13,18 @@ Algoritmo prueba
 	
 	Escribir "Nombre: " ,nombre, " Edad: ",edad; 
 FinAlgoritmo
+
+
+---------------------------------------
+
+Algoritmo prueba
+	Definir Nombre, apellido, sexo Como Caracter;
+	
+	Escribir "Cual es tu nombre: ";
+	Leer Nombre;
+	Escribir "Cual es tu apellido : ";
+	Leer apellido;
+	Escribir "Cual es tu sexo: ";
+	Leer sexo;
+FinAlgoritmo
+
