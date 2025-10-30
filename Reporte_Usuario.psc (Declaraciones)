@@ -1,0 +1,14 @@
+Algoritmo Reporte_Usuario
+	// Declaración y Asignación de Variables
+	Definir Nombre Como Caracter
+	Nombre <- "Juan"
+	Definir edad Como Entero
+	Edad <- 15
+	Definir Ciudad Como Caracter
+	Ciudad <- "Peru"
+	
+	// Salida
+	Escribir "Nombre:", Nombre;
+	Escribir "Edad:", Edad;
+	Escribir "Ciudad:", Ciudad;
+FinAlgoritmo
