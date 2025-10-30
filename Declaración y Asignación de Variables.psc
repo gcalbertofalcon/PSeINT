@@ -1,10 +1,10 @@
 Algoritmo FalconYanes_Alberto
-	//Declaraci髇 y Asignaci髇 de Variables
+	//Declaraci贸n y Asignaci贸n de Variables
 	
-	 // Uso de Escribir para mostrar la informaci髇:
+	 // Uso de Escribir para mostrar la informaci贸n:
     // Escribir "--- Reporte de Usuario ---"; 
-    // Escribir "El nombre es: ", nombre;          // Primera l韓ea de salida
-    // Escribir nombre, " tiene ", edad, " a駉s."; // Segunda l韓ea de salida
+    // Escribir "El nombre es: ", nombre;          // Primera l铆nea de salida
+    // Escribir nombre, " tiene ", edad, " a帽os."; // Segunda l铆nea de salida
 	
 	Definir Nombre Como Caracter
 	Nombre <- "Juan"
@@ -16,22 +16,22 @@ Algoritmo FalconYanes_Alberto
 	Escribir "Edad:", edad;
 	Escribir "ciudad:", ciudad;
 	
-	//C醠culo de 羠ea de un Rect醤gulo
+	//C谩lculo de 脕rea de un Rect谩ngulo
 	
-	// 1. Declaraci髇 de variables
+	// 1. Declaraci贸n de variables
     // Usamos 'Real' para permitir longitudes con decimales
 	
 	Definir longitudes, ancho, area Como Real;
 	
 	// 2. Solicitud y Lectura de Datos (Entrada)
-	Escribir "ingrese la Longitudes del rect醤gulo";
+	Escribir "ingrese la Longitudes del rect谩ngulo";
 	Leer longitudes;
 	
 	Escribir "ingrese el ancho del rectangulo";
 	Leer ancho;
 	
 	
-	// 3. C醠culo del 羠ea (Proceso)
+	// 3. C谩lculo del 脕rea (Proceso)
 	area <- longitudes * ancho;
 	
 	// 4. Mostrar el Resultado (Salida)
@@ -43,8 +43,8 @@ Algoritmo FalconYanes_Alberto
 	Escribir "Ingrese la temperatura en grados celsius (C*): "
 	Leer celsius
 	
-	// 3. Conversi髇 de Temperatura (Proceso)
-	// F髍mula: 癋 = (9/5) * 癈 + 32
+	// 3. Conversi贸n de Temperatura (Proceso)
+	// F贸rmula: 掳F = (9/5) * 掳C + 32
 	Fahrenheit <- (9/5) * celsius + 32;
 	
 	Escribir "---------------------"
@@ -53,14 +53,14 @@ Algoritmo FalconYanes_Alberto
 	Escribir "----------------------";
 	
 	
-	// 1. Declaraci髇 de variable
+	// 1. Declaraci贸n de variable
 	Definir numero Como Entero;
 	// 2. Solicitud y Lectura de Datos (Entrada)
 	Escribir "ingresa el numero";
 	Leer numero;
 	
-	// 3. Verificaci髇 y Mostrar Resultado (Proceso y Salida)
-    // Se usa el operador MOD o % (m骴ulo) para obtener el residuo de la divisi髇 por 2.
+	// 3. Verificaci贸n y Mostrar Resultado (Proceso y Salida)
+    // Se usa el operador MOD o % (m贸dulo) para obtener el residuo de la divisi贸n por 2.
     // Si el residuo es 0, es PAR. Si es 1, es IMPAR.
 	
 	si (numero MOD 2) = 0 Entonces
@@ -69,15 +69,15 @@ Algoritmo FalconYanes_Alberto
 		Escribir "El numero ", numero, " es IMPAR";
 	FinSi
 	
-	// 1. Declaraci髇 de variables
+	// 1. Declaraci贸n de variables
 	Definir suma1, suma2 Como Real;
-	// 2. Solicitud y Lectura del Primer N鷐ero (Entrada)
+	// 2. Solicitud y Lectura del Primer N煤mero (Entrada)
 	Escribir "Ingrese el primer numero";
 	Leer suma1;
-	// 3. Solicitud y Lectura del Segundo N鷐ero (Entrada)
+	// 3. Solicitud y Lectura del Segundo N煤mero (Entrada)
 	Escribir "Ingrese el segundo numero";
 	Leer  suma2;
-	// 4. C醠culo de la Suma (Proceso)
+	// 4. C谩lculo de la Suma (Proceso)
 	resultado <- suma1 + suma2;
 	// 5. Mostrar el Resultado (Salida)
 	Escribir "------------------------------------";
