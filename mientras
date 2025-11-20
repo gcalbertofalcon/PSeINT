@@ -1,0 +1,30 @@
+Mientras (Bucle Condicional)
+Repite mientras la condición sea Verdadera. ¡Asegúrate de que la condición cambie dentro!
+
+Fragmento de código
+
+Definir contador Como Entero;
+contador <- 1;
+
+Mientras contador <= 5 Hacer
+    Escribir "Iteración número ", contador;
+    contador <- contador + 1; // Necesario para evitar un bucle infinito
+FinMientras
+Para (Bucle con Contador Fijo)
+Repite un número conocido de veces.
+
+Fragmento de código
+
+// La variable 'i' va desde 1 hasta 10, de 1 en 1 (Paso 1 es por defecto)
+Para i <- 1 Hasta 10 Con Paso 1 Hacer
+    Escribir "El valor de i es: ", i;
+FinPara
+Repetir (Hacer-Mientras)
+Se ejecuta al menos una vez y luego repite mientras la condición sea Falsa.
+
+Fragmento de código
+
+Repetir
+    Escribir "Ingrese un número positivo:";
+    Leer numero;
+Hasta Que numero > 0 // El bucle termina cuando el número es positivo
