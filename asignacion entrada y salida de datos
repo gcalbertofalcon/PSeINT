@@ -1,0 +1,15 @@
+radio <- 5.5; // El radio ahora vale 5.5
+area = 3.14 * radio * radio; // 'area' toma el resultado de la expresión
+
+Escribir "El resultado es: ", area; // Muestra un mensaje y el valor de la variable
+
+Escribir "Por favor, ingrese su edad:";
+Leer edad; // Espera que el usuario escriba un número y lo guarda en 'edad'
+
+https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTot8ziuqu8_CelXD320zZqptJGGFvzuHi_lgHtBj5g8S3ICSMAnCLaL5Jg741rjApZ-qHKGMMU8Q5klPt1feMfFdg-xoV5tPHPu1YCkPJRpQvEOZ0
+
+Si edad >= 18 Entonces
+    Escribir "Es mayor de edad.";
+SiNo
+    Escribir "Es menor de edad.";
+FinSi
