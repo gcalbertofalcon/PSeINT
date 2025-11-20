@@ -1,0 +1,11 @@
+// Definir una variable llamada 'radio' como real para números con decimales.
+Definir radio Como Real;
+
+// Definir una variable llamada 'nombre' como caracter.
+Definir nombre Como Caracter;
+
+// Definir una variable llamada 'edad' como entero (sin decimales).
+Definir edad Como Entero;
+
+// Definir una variable 'esValido' como logico (solo almacena VERDADERO o FALSO).
+Definir esValido Como Logico;
