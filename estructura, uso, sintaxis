@@ -1,0 +1,4 @@
+Estructura,Uso,Sintaxis
+Mientras,Repite un bloque mientras una condición sea Verdadera. La condición se evalúa antes de cada iteración.,Mientras condicion Hacer ... FinMientras
+Repetir,Ejecuta el bloque al menos una vez. Repite hasta que la condición sea Verdadera (mientras sea Falsa). La condición se evalúa al final.,Repetir ... Hasta Que condicion
+Para,Repite un bloque un número conocido de veces usando un contador.,Para contador <- inicio Hasta fin Con Paso paso_opcional Hacer ... FinPara
