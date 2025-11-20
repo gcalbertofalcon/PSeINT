@@ -1,0 +1,19 @@
+Si edad <= LIMITE_x Entonces
+    // Asignar Grupo x
+SiNo
+    // El SiNo implica automáticamente que edad > LIMITE_X
+    // Por lo tanto, solo necesitas verificar el nuevo límite superior
+    
+    // Si la x cae en el segundo rango (Ej: x: 90 a 100)
+    Si x <= LIMITE_x Entonces
+        // Asignar Grupo x
+    SiNo
+    Si x <= LIMITE_x Entonces
+        // Asignar Grupo x
+    SiNo
+    Si x <= LIMITE_x Entonces
+        // Asignar Grupo x
+    SiNo
+finSI
+finsi
+etc
